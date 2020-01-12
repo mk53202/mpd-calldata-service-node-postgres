@@ -1,0 +1,4 @@
+
+
+https://github.com/unitech/pm2
+pm2 start app.js

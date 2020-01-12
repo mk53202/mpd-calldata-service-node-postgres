@@ -1,0 +1,40 @@
+{
+  "name": "mpd-calldata-service-node",
+  "version": "1.0.0",
+  "description": "Call data",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "create_db": "node db-create.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk53202/mpd-calldata-service-node.git"
+  },
+  "keywords": [
+    "call",
+    "data"
+  ],
+  "author": "Matt Koster <mattkoster@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mk53202/mpd-calldata-service-node/issues"
+  },
+  "homepage": "https://github.com/mk53202/mpd-calldata-service-node#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "fs-promise": "^2.0.3",
+    "jsonschema": "^1.2.4",
+    "moment": "^2.24.0",
+    "mysql": "^2.16.0",
+    "mysql-import": "^2.0.2",
+    "mysql2": "^1.6.1",
+    "pg": "^7.12.1",
+    "pg-copy-streams": "^2.2.2",
+    "request-promise": "^4.2.2",
+    "sql-template-strings": "^2.2.2",
+    "table-scraper": "^0.1.0",
+    "tasktimer": "^1.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+
+let config = {
+  user: 'mpd-calldata',
+  host: '10.0.1.211',
+  database: 'mpd-calldata',
+  password: 'xxxxxx',
+  port: 5432
+};
+
+module.exports = config;
