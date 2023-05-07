@@ -34,7 +34,7 @@
     "pg-copy-streams": "^2.2.2",
     "request-promise": "^4.2.2",
     "sql-template-strings": "^2.2.2",
-    "table-scraper": "^0.1.0",
+    "table-scraper": "^1.0.3",
     "tasktimer": "^1.0.0"
   }
 }
